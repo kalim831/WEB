@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1>Job Application</h1>
+
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name"><br><br>
+
+    <label for="email">E-mail: </label>
+    <input type="text" name="emial" id="email"><br><br>
+    
+    
+    <label for="phone">Phone: </label>
+    <input type="text" name="phone" id="phone"><br><br>
+
+    <label for="documnent">Resume</label>
+    <input type="file" name="document" id="document"><br><br>
+
+    <label for="eperience">Experience (Year): </label>
+    <input type="number" name="experience" id="experience" min="0" max="50"><br><br>
+
+    <fieldset>
+        <legend>Skills:</legend>
+
+        <label for="checkbox1">HTML</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1"><br><br>
+
+        <label for="checkbox2">CSS</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2"><br><br>
+
+        <label for="checkbox3">JAVASCRIPT</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3"><br><br>
+    </fieldset>
+    <br><br>
+
+
+    <label for="education">Highest Eduation</label>
+    <select name="education" id="education">
+
+        <option value="high">High School</option>
+        <option value="Graduate">Graduated</option>
+        <option value="high">PHD</option>
+
+    </select><br><br>
+    <h3>Availability: </h3><br>
+    <label for="radio">Full time</label>
+    <input type="radio" name="radio" id="radio">
+
+    <label for="radio">Part time</label>
+    <input type="radio" name="radio" id="radio">
+    <br><br>
+
+    <label for="comment">Additional Comment: </label><br>
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="submit" value="Register">
+</body>
+</html>
